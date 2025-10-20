@@ -1,4 +1,4 @@
-# Knowledge Graph (KG)
+# Episodic KG
 
 RDF resources and ontology files used by the project.
 
