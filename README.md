@@ -2,6 +2,7 @@
 
 A benchmark dataset designed to evaluate KGQA (Knowledge Graph Question Answering) models in daily activity environments
 
+
 ## Quick Start
 
 If you want to use the dataset, you can find them in the following directories:
@@ -90,36 +91,7 @@ python merge_generated_questions.py --loop 10 --type train
    python generate_episodic_kg.py
    ```
 
-## File Structure
+## License
 
-```
-/Users/s-egami/dev/home-kgqa/
-├── generate_episodic_kg.py   # Generate episodic knowledge graph from VHAKG dataset
-├── generate_questions.py     # Main question generation script
-├── paraphrase_questions.py   # Question paraphrasing script
-├── split_dataset.py          # Dataset splitting script
-├── merge_generated_questions.py # Question merging script
-├── config.json               # Configuration file (edit with your API key)
-├── dataset/                  # Dataset directory
-│   ├── qa/                   # Pre-generated QA datasets (ready to use)
-│   │   ├── train_compositional_350.jsonl
-│   │   ├── train_iid_350.jsonl
-│   │   ├── test_compositional_700.jsonl
-│   │   └── test_iid_700.jsonl
-│   ├── prompt/               # Pre-generated prompt datasets (ready to use)
-│   │   ├── HOE-KGQA_prompt_dataset_paraphrased_compositional.jsonl
-│   │   ├── HOE-KGQA_prompt_dataset_paraphrased_iid.jsonl
-│   │   ├── HOE-KGQA_prompt_dataset_raw_compositional.jsonl
-│   │   └── HOE-KGQA_prompt_dataset_raw_iid.jsonl
-│   ├── kg/                   # Knowledge graph files
-│   │   └── vh2kg_schema_v2.0.0.ttl
-│   ├── vhakg_event.tar.gz    # Event-centric knowledge graphs (download from Zenodo)
-│   └── vhakg_video_base64.tar.gz # Video-embedded knowledge graphs (download from Zenodo)
-├── genqa/                    # Question generation package
-│   ├── __init__.py
-│   ├── config.py
-│   ├── extract.py
-│   ├── query_patterns.py
-│   └── question_generator.py
-└── generated_questions/      # Output directory for generated files
-```
+- **Datasets**: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
+- **Code**: [MIT License](https://opensource.org/licenses/MIT)
