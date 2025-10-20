@@ -30,7 +30,7 @@ INIT_TIME = datetime.datetime(2024, 4, 1, 5, 00, 00)
 
 # Data loading
 cs_results = []
-with open("data/lancers_task.csv", encoding="utf-8", newline="") as f:
+with open("dataset/others/lancers_task.csv", encoding="utf-8", newline="") as f:
     for cols in csv.reader(f, delimiter=","):
         cs_results.append(cols)
 #delete header
