@@ -1,6 +1,5 @@
 # QA Datasets
-
-Pre-generated datasets for evaluating KGQA models.
+Generated QA datasets for evaluating KGQA models.
 
 ## Contents
 - `*_compositional_*.jsonl` denotes the compositional generalization split: all relations and classes are seen during training, but specific logical-form constructs and operators that appear in the test set are unseen.
