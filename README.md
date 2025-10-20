@@ -29,13 +29,7 @@ These datasets are ready to use without additional setup.
    ```
 
 2. **Configure OpenAI API key**:
-   - Edit `config.json` and replace `your-openai-api-key-here` with your actual OpenAI API key
-
-   The configuration file should look like this:
-   ```json
-   {
-     "openai_api_key": "your-openai-api-key-here"
-   }
+   - Edit `config.json` and replace `your-openai-api-key-here` with your OpenAI API key
    ```
 
 ## Usage
