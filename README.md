@@ -4,7 +4,7 @@ A benchmark dataset designed to evaluate KGQA (Knowledge Graph Question Answerin
 
 ## Quick Start
 
-If you want to use the system immediately with pre-generated datasets, you can find them in the following directories:
+If you want to use the dataset, you can find them in the following directories:
 
 - **QA Datasets**: `dataset/qa/` - Contains train/test datasets for question answering
 - **Prompt Datasets**: `dataset/prompt/` - Contains prompt datasets for instruction tuning
@@ -12,6 +12,16 @@ If you want to use the system immediately with pre-generated datasets, you can f
 These datasets are ready to use without additional setup.
 
 ## Setup
+
+0. **Install uv (if not installed)**:
+   - macOS/Linux:
+   ```bash
+   curl -Ls https://astral.sh/uv/install.sh | sh
+   ```
+   - Homebrew (macOS):
+   ```bash
+   brew install uv
+   ```
 
 1. **Install dependencies**:
    ```bash
