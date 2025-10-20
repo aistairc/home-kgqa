@@ -1,5 +1,5 @@
 # Configuration files with sensitive data
-_config.json
+config.json
 generated_questions/seen_combinations.pkl
 
 # Python
