@@ -6,8 +6,8 @@ A benchmark dataset designed to evaluate KGQA (Knowledge Graph Question Answerin
 
 If you want to use the dataset, you can find them in the following directories:
 
-- **QA Datasets**: `dataset/qa/` - Contains train/test datasets for question answering
-- **Prompt Datasets**: `dataset/prompt/` - Contains prompt datasets for instruction tuning
+- **QA Datasets**: `dataset/qa/` - Contains train/test datasets for question answering ([details in README](dataset/qa/README.md))
+- **Prompt Datasets**: `dataset/prompt/` - Contains prompt datasets for instruction tuning ([details in README](dataset/prompt/README.md))
 
 These datasets are ready to use without additional setup.
 
