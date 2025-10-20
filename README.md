@@ -10,7 +10,8 @@ If you want to use the dataset, you can find them in the following directories:
 - **Prompt Datasets**: `dataset/prompt/` - Contains prompt datasets for instruction tuning ([details in README](dataset/prompt/))
 - **KG Datasets**: `dataset/kg/` - Contains episodic KG datasets, which are the target KGs for KGQA ([details in README](dataset/kg/))
 
-These datasets are ready to use without additional setup.
+
+> **Note**: If you only want to use the pre-generated datasets, you do not need to run any of the following sections. The sections below are only for rebuilding or augmenting the datasets.
 
 ## Setup
 
