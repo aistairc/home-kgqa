@@ -87,7 +87,6 @@ python merge_generated_questions.py --loop 10 --type train
 
 2. **Generate episodic knowledge graph**:
    ```bash
-   # Generate episodic knowledge graph from VHAKG dataset
    python generate_episodic_kg.py
    ```
 
