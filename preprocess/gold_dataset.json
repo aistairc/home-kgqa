@@ -1,0 +1,104 @@
+{
+    "Object": {
+        "None": {
+            "original": "What is the object opened by an agent in the kitchen after 2024-05-18T13:13:00 and before 2024-05-25T09:33:00?",
+            "paraphrase": "What did the agent open in the kitchen after 1:13 p.m. on May 18, 2024, and before 9:33 a.m. on May 25, 2024?"
+        },
+        "Type": {
+            "original": "What is the type of the object poured by an agent in the kitchen from 2024-06-05T21:59:00 to 2024-07-09T23:45:00?",
+            "paraphrase": "What type of object did the agent pour in the kitchen from 9:59 p.m. on June 5, 2024, to 11:45 p.m. on July 9, 2024?"
+        },
+        "Superclass": {
+            "original": "What is the superclass of the object typed by an agent inside the livingroom for more than or equal to 10 seconds?",
+            "paraphrase": "What broad category does the object belong to that an agent typed on for at least 10 seconds in the living room?"
+        },
+        "State": {
+            "original": "What is the state of the object soaked by an agent in the bathroom after or at 2024-05-04T02:22:00 and before 2024-06-01T08:33:00?",
+            "paraphrase": "Can you tell me what condition the object was in after someone soaked it in the bathroom between May 4, 2024, at 2:22 a.m. and June 1, 2024, at 8:33 a.m.?"
+        },
+        "Attribute": {
+            "original": "What is the attribute of the object switched on by an agent in the livingroom from 2024-04-05T15:25:00 to 2024-04-10T08:04:00?",
+            "paraphrase": "What attributes do objects have that were activated by an agent in the living room between 3:25 p.m. on April 5, 2024, and 8:04 a.m. on April 10, 2024?"
+        },
+        "Size": {
+            "original": "What are the width, height, and depth of the object grabbed by an agent in the bathroom after or at 2024-04-09T04:42:00 and before 2024-06-14T04:50:00?",
+            "paraphrase": "Can you tell me the width, height, and depth of the object that an agent picked up in the bathroom between 4:42 a.m. on April 9, 2024, and 4:50 a.m. on June 14, 2024?"
+        }
+    },
+    "Action": {
+        "None": {
+            "original": "What did the agent do with an object which is a subclass of Electronics in the bedroom from 2024-04-01T12:29:00 to 2024-06-01T08:52:00?",
+            "paraphrase": "During the period from April 1, 2024, at 12:29 p.m. to June 1, 2024, at 8:52 a.m., what did the agent do with the electronic device in the bedroom?"
+        }
+    },
+    "Space": {
+        "Place": {
+            "original": "What is the place involving an agent that puts an object which is a subclass of Furniture after 2024-05-13T08:43:00 and before 2024-06-30T00:20:00?",
+            "paraphrase": "Where did the agent put a furniture after 8:43 a.m. on May 13, 2024, and before 12:20 a.m. on June 30, 2024?"
+        },
+        "3D Coordinates": {
+            "original": "What are the 3D spatial coordinates of the object closed by an agent from 2024-04-05T16:35:00 to 2024-05-26T18:35:00, which is a subclass of Appliances?",
+            "paraphrase": "Can you tell me the 3D coordinates of the appliance that an agent closed during the period from 4:35 p.m. on April 5, 2024 to 6:35 p.m. on May 26, 2024?"
+        }
+    },
+    "Time": {
+        "Instant": {
+            "original": "What is the time involving an agent that soaks an object whose height is less than 0.65m in the kitchen?",
+            "paraphrase": "When did that person soak something under 0.65 meters tall in the kitchen?"
+        },
+        "Interval": {
+            "original": "From when to when is the agent putting an object whose height is less than 0.67m in the bedroom?",
+            "paraphrase": "When did the agent start and finish putting an object under 0.67 meters tall in the bedroom?"
+        },
+        "Duration": {
+            "original": "How long does an agent turn to an object which is a subclass of Furniture in the livingroom?",
+            "paraphrase": "How long did it take for the agent to turn toward a furniture in the living room?"
+        }
+    },
+    "Activity": {
+        "None": {
+            "original": "What is the activity involving an agent that drinks an object whose state is GRABED in the kitchen for more than 7 seconds?",
+            "paraphrase": "Which activity is it when the agent drinks a beverage he grabbed in the kitchen for more than 7 seconds?"
+        },
+        "next/previous": {
+            "original": "What is the previous activity involving an agent that scrubs an object which is a subclass of Props in the livingroom after 2024-06-18T07:33:00 and before 2024-07-06T23:50:00?",
+            "paraphrase": "Which activity happened right before the agent scrubbed a prop in the living room between 7:33 a.m. on June 18, 2024, and 11:50 p.m. on July 6, 2024?"
+        }
+    },
+    "Video": {
+        "Video": {
+            "original": "What is the video from camera3 involving an agent that grabs an object whose attribute is has_paper at a position where the X coordinate is greater than -3.58 from 2024-04-06T04:19:00 to 2024-05-07T00:34:00?",
+            "paraphrase": "Which video from camera 3 shows an agent grabbing a paper object at an X coordinate greater than -3.58, recorded during the period from 4:19 a.m. on April 6, 2024 to 12:34 a.m. on May 7, 2024?"
+        },
+        "VideoFrame": {
+            "original": "What are the start and end frames of the scene from camera4 involving an agent that turns to an object whose attribute is has_plug at a position where the Z coordinate is less than -4.14 for less than or equal to 13 seconds?",
+            "paraphrase": "What are the start and end frames of the scene from camera 4 featuring an agent that turns to an object that has a plug at a position where the Z coordinate is less than -4.14 for less than or equal to 13 seconds?"
+        },
+        "2D Coordinates": {
+            "original": "What are the objects and their bounding boxes in the first video frame from camera1 involving an agent that texts an object which is a subclass of Props at a position where the Z coordinate is less than -5.25 for less than or equal to 14 seconds?",
+            "paraphrase": "Can you tell me which objects and their bounding boxes appeared in the first video frame from camera 1, where an agent was texting with a prop at a location with a Z coordinate below -5.25, within 14 seconds?"
+        }
+    },
+    "Aggregation": {
+        "Count": {
+            "original": "How many times per object does an agent read an object whose state is GRABED at a position where the X coordinate is greater than 5.46 for more than or equal to 1 seconds?",
+            "paraphrase": "How many times did the agent read an object that was held by the agent at a location with an X coordinate greater than 5.46 for at least one second?"
+        },
+        "Minimum": {
+            "original": "What is the minimum X coordinate of an object whose height is greater than 0.21m that is looked at by an agent in the livingroom?",
+            "paraphrase": "What's the smallest x-coordinate of any object taller than 0.21 m that an agent saw in the living room?"
+        },
+        "Maximum": {
+            "original": "Among the objects that the agent sent a message to, what is the maximum Z coordinate of an object that the agent text, whose state is ON in the bedroom?",
+            "paraphrase": "Of the devices the agent texted on, what’s the highest Z-coordinate of the ones in the bedroom that are on?"
+        },
+        "Average": {
+            "original": "What is the average duration involving an agent that turns to an object whose attribute is has_paper in the livingroom?",
+            "paraphrase": "How long, on average, did an agent turns to a paper object in the living room?"
+        },
+        "Summation": {
+            "original": "What is the total duration involving an agent that drinks an object whose state is CLOSED at a position where the Z coordinate is greater than -9.5?",
+            "paraphrase": "How long did it take for an agent to drink a closed object at a location where the Z coordinate was above -9.5?"
+        }
+    }
+}
