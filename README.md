@@ -8,6 +8,7 @@ If you want to use the dataset, you can find them in the following directories:
 
 - **QA Datasets**: `dataset/qa/` - Contains train/test datasets for question answering ([details in README](dataset/qa/))
 - **Prompt Datasets**: `dataset/prompt/` - Contains prompt datasets for instruction tuning ([details in README](dataset/prompt/))
+- **KG Datasets**: `dataset/kg/` - Contains episodic KG datasets, which are the target KGs for KGQA ([details in README](dataset/kg/))
 
 These datasets are ready to use without additional setup.
 
