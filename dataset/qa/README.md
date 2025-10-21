@@ -3,7 +3,11 @@ Generated QA datasets for evaluating KGQA models.
 
 ## Contents
 - `*_compositional_*.jsonl` denotes the compositional generalization split: all relations and classes are seen during training, but specific logical-form constructs and operators that appear in the test set are unseen.
+    - [train_compositional_350.jsonl](./train_compositional_350.jsonl)
+    - [test_compositional_700.jsonl](./test_compositional_700.jsonl)
 - `*_iid_*.jsonl` denotes the i.i.d. generalization split: relations, classes, and logical-form constructs (e.g., SPARQL modifiers, FILTER expressions, operators) are seen during training, but entities and literals differ between train and test.
+    - [train_iid_350.jsonl](./train_iid_350.jsonl)
+    - [test_iid_700.jsonl](./test_iid_700.jsonl)
 
 ## Format
 
