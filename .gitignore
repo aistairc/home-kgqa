@@ -1,6 +1,6 @@
 # Configuration files with sensitive data
 _config.json
-generated_questions/seen_combinations.pkl
+generated_questions/*
 dataset/kg/scene1/*
 dataset/kg/scene1.tar.gz
 
