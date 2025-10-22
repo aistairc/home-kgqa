@@ -71,13 +71,12 @@ python merge_generated_questions.py --loop 150 --type train
 **Note**: This step requires downloading the VHAKG dataset first and is only needed for advanced users.
 
 1. **Download and setup VHAKG dataset**:
-   - Download `vhakg_event.tar.gz` and `vhakg_video_base64.tar.gz` from [VHAKG dataset](https://zenodo.org/records/11438499)
-   - Place the downloaded files in the `dataset/` directory
-   - Extract the archives:
    ```bash
    cd dataset/
-   tar -xzf vhakg_event.tar.gz
-   tar -xzf vhakg_video_base64.tar.gz
+   wget https://zenodo.org/records/11438499/files/vhakg_event.tar.gz?download=1 -O vhakg_event.tar.gz
+   wget https://zenodo.org/record/11438499/files/vhakg_video_base64.tar.gz?download=1 -O vhakg_video_base64.tar.gz
+   tar -zxvf vhakg_event.tar.gz
+   tar -zxvf vhakg_video_base64.tar.gz
    ```
 
 2. **Generate episodic knowledge graph**:
